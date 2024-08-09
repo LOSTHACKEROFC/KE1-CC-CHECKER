@@ -66,11 +66,11 @@ checkBtn.addEventListener("click", function () {
     // 2. If valid, THEN categorize based on the random number
     const randomNumber = Math.random();
     if (randomNumber < 0.2) {
-      aliList.push(`<span style='color:green; font-weight:bold;'>Live</span> | ${line} -> [Charge <span style='color:green; font-weight:bold;'>$4,99</span>] [GATE:01]. /GalaxyCarder`);
+      aliList.push(`<span style='color:green; font-weight:bold;'>Live</span> | ${line} -> [Charge <span style='color:green; font-weight:bold;'>$4,99</span>] [GATE:01]. / @Galaxy_Carder`);
     } else if (randomNumber < 0.9) {
-      muhammadList.push(`<span style='color:red; font-weight:bold;'>Dead</span> | ${line} -> [Charge <span style='color:red; font-weight:bold;'>$0,00</span>] [GATE:01]. /GalaxyCarder`);
+      muhammadList.push(`<span style='color:red; font-weight:bold;'>Dead</span> | ${line} -> [Charge <span style='color:red; font-weight:bold;'>$0,00</span>] [GATE:01]. / @Galaxy_Carder`);
     } else {
-      muradList.push(`<span style='color:orange; font-weight:bold;'>Unknown</span> | ${line} -> [Charge <span style='color:orange; font-weight:bold;'>N/A</span>] [GATE:01]. /GalaxyCarder`);
+      muradList.push(`<span style='color:orange; font-weight:bold;'>Unknown</span> | ${line} -> [Charge <span style='color:orange; font-weight:bold;'>N/A</span>] [GATE:01]. / @Galaxy_Carder`);
     }
   } 
 
